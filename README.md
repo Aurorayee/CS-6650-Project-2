@@ -1,10 +1,10 @@
 ## CS-6650-Project-2
 
 #### i: How to build your server and client nodes? 
-ServantInterface: Include methods needed for the three instructions. (GET, PUT, DELETE)
-Servant: Implement methods decleared in the servantInterface
-Client: RMI client
-Server: RMI server
+ServantInterface: Include methods needed for the three instructions. (GET, PUT, DELETE). 
+Servant: Implement methods decleared in the servantInterface. Library I use: java.rmi.RemoteException, java.rmi.server.UnicastRemoteObject, java.util.concurrent.ConcurrentHashMap;
+Client: RMI client. Recursively receive calls from user's input and bind the user's input info. to the server side. Java library use: java.net.MalformedURLException; java.rmi.Naming; java.rmi.NotBoundException; java.rmi.Remote; java.rmi.RemoteException; java.util.Scanner;
+Server: RMI server. Java library use: java.rmi.RemoteException; java.rmi.registry.LocateRegistry; java.rmi.registry.Registry; java.rmi.server.UnicastRemoteObject;
 
 
 #### ii: How to run your server and client programs?
